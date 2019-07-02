@@ -1,0 +1,40 @@
+.head {
+	padding: 93px 0 84px 0;
+	background: linear-gradient(to right, #3D5FC3 20%, #3E9BDF);
+	color: #fff;
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.head__title {
+		display: inline-block;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 34px;
+		line-height: 1.5;
+		font-weight: 500;
+	}
+
+	.head__update {
+
+		font: 18px/24px 'PT Sans', sans-serif;
+		&_value {
+			font-weight: bold;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		padding: 74px 0 75px;
+
+		.container {
+			flex-direction: column;
+		}
+		.head__title {
+			margin-bottom: 12px;
+			font-size: 28px;
+			text-align: center;
+		}
+	}
+}

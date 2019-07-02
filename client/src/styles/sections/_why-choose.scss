@@ -1,0 +1,43 @@
+.why-choose {
+  padding: 150px 0 100px;
+  text-align: center;
+
+  @include max-screen(991px) {
+    padding: 80px 0;
+  }
+
+  h3 {
+    @extend .about__title;
+  }
+
+  .advantage {
+    [id*='lottie-'] {
+      display: block;
+      margin: 20px auto;
+      width: 120px;
+    }
+
+    &__title {
+      color: #4e5f8c;
+      font-size: 17px;
+      line-height: 1.6;
+      font-weight: 600;
+      margin: 30px 0;
+    }
+
+    &__descr {
+      font-family: 'PT Sans', sans-serif;
+      font-size: 14px;
+      color: #4e5f8c;
+      line-height: 1.6;
+    }
+
+    @include max-screen(991px) {
+      margin-bottom: 65px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

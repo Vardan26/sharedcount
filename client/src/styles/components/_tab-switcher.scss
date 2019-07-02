@@ -1,0 +1,40 @@
+$switcher-accent: #496CD2;
+
+.how-it-works {
+    .tab-switcher {
+        display: inline-block;
+        background-color: $switcher-accent;
+        border: 2px solid $switcher-accent;
+        border-radius: 5px;
+        margin: 20px 0 45px;
+
+        &__tab {
+            font-family: 'PT Sans',sans-serif;
+            display: inline-block;
+            width: 125px;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 14px;
+            font-weight: 600;
+            color: rgba(#fff, .8);
+            user-select: none;
+            cursor: pointer;
+
+            &_active {
+                color: $switcher-accent;
+                background-color: #fff;
+                border-radius: 3px;
+
+            }
+        }
+    }
+}
+
+
+.tab-content {
+    display: none;
+
+    &_visible {
+        display: flex;
+    }
+}

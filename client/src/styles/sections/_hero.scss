@@ -1,0 +1,31 @@
+.hero {
+    text-align: center;
+    color: #4e5f8c;
+    font-weight: 500;
+    padding: 100px 0;
+
+    h2 {
+        display: inline-block;
+        width: 100%;
+        font-size: 34px;
+        margin-bottom: 20px;
+
+        @include max-screen(560px) {
+            font-weight: 600;
+        }
+
+    }
+
+    h3 {
+        display: inline-block;
+        width: 100%;
+        font-size: 22px;
+        line-height: 1.5;
+
+        @include max-screen(560px) {
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+    }
+}

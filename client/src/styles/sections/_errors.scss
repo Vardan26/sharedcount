@@ -1,0 +1,28 @@
+.errors {
+	.errors__subtitle {
+		margin-top: 36px;
+	}
+
+	.errors__code_one-line {
+		code {
+			padding-bottom: 20px;
+		}
+	}
+
+	.warning_orange {
+		margin-top: 30px;
+		margin-bottom: 97px;
+	}
+
+	.code {
+
+		&_red {
+			color: #D0021B;
+		}
+
+		&_green {
+			color: #7ED321;
+		}
+
+	}
+}

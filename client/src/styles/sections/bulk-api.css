@@ -1,0 +1,10 @@
+.bulk-api p.api-docs__desc {
+  margin-top: 20px;
+  margin-bottom: 15px; }
+
+.bulk-api ul {
+  font-family: 'PT Sans', sans-serif;
+  list-style-type: disc;
+  margin-left: 40px; }
+  .bulk-api ul li {
+    padding: 8px 0; }

@@ -1,0 +1,32 @@
+.index-wrap {
+  background-image: url(../images/BG-Header.svg);
+  background-repeat: no-repeat;
+  background-position: top 0 right 0;
+  @include max-screen(900px) {
+    background-image: none;
+  }
+}
+.how-it-works {
+  background-image: url(../images/BG-Footer.svg);
+  background-repeat: no-repeat;
+  background-position: left 0 bottom -233px;
+  @include max-screen(900px) {
+    background-image: none;
+  }
+}
+.left-s-wrap {
+  background-image: url(../images/BG-HIW.svg);
+  background-repeat: no-repeat;
+  @include max-screen(900px) {
+    background-image: none;
+  }
+}
+.right-s-wrap {
+  background-image: url(../images/BG-API.svg);
+  background-repeat: no-repeat;
+  background-position: right 0 top -150px;
+  background-size: contain;
+  @include max-screen(900px) {
+    background-image: none;
+  }
+}

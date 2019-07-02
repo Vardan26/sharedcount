@@ -1,0 +1,25 @@
+button.button {
+    font-family: 'PT Sans',sans-serif;
+    background: #3d5fc3;
+    border: none;
+    color: #fff;
+    padding: 16px 32px;
+    background: linear-gradient(to top right, #3D5FC3, #3D7FE2);
+    border-radius: 5px;
+    letter-spacing: .25px;
+    font-size: 15px;
+    opacity: 1;
+    outline: none;
+    cursor: pointer;
+    transition: opacity .2s ease;
+    box-shadow: 0 10px 20px rgba(#45A8FF, .25);
+
+    &_accent-green {
+        background: linear-gradient(to top right, #3EBF8B, #4FD291);
+        box-shadow: none;
+    }
+
+    &:hover {
+        opacity: .9;
+    }
+}

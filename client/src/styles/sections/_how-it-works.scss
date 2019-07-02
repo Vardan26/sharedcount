@@ -1,0 +1,12 @@
+.how-it-works {
+    @extend .why-choose;
+    padding-bottom: 120px;
+
+    @include max-screen(991px) {
+        padding-bottom: 100px;
+    }
+
+    .tab-content {
+        min-height: 180px;
+    }
+}
